@@ -60,7 +60,7 @@ namespace SetFinderModel
                 throw new ArgumentException("The options must be different!");
             }
 
-            var uniqueOptionByte = (byte)((~optionOneByte & ~optionTwoByte) & 7);
+            var uniqueOptionByte = (byte)((~optionOneByte & ~optionTwoByte) & 0b111);
 
             return (TEnum)(ValueType)uniqueOptionByte;
         }

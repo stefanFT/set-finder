@@ -9,6 +9,25 @@
         public Shading Shading { get; init; }
 
         public Number Number { get; init; }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is not Card otherCard)
+            {
+                return false;
+            }
+
+            return otherCard is Card &&
+                Shape == otherCard.Shape &&
+                Color == otherCard.Color &&
+                Number == otherCard.Number &&
+                Shading == otherCard.Shading;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Shape, Color, Number, Shading);
+        }
     }
 
     public enum Shape : byte
