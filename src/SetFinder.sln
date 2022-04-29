@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetFinderModelTest", "SetFinderModelTest\SetFinderModelTest.csproj", "{A5835BB5-FCD9-4B83-982D-E957F6BD2146}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetFinderModel", "SetFinderModel\SetFinderModel.csproj", "{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Debug|Any CPU.Build.0 = Debug|x64
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Debug|x64.ActiveCfg = Debug|x64
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Debug|x64.Build.0 = Debug|x64
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Release|x64.ActiveCfg = Release|x64
+		{A5835BB5-FCD9-4B83-982D-E957F6BD2146}.Release|x64.Build.0 = Release|x64
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Debug|x64.ActiveCfg = Debug|x64
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Debug|x64.Build.0 = Debug|x64
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Release|x64.ActiveCfg = Release|x64
+		{FBC45898-6E30-4D93-9FB0-4EE90DB7BCB5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F986A922-4B9D-4A09-AD07-71B28EE9D75C}
+	EndGlobalSection
+EndGlobal
